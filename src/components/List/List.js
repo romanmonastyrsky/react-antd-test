@@ -20,7 +20,7 @@ const List = () => {
     dispatch(changeView());
   };
 
-  const handleDrowerClick = () => {
+  const handleDrawerClick = () => {
     dispatch(changeDrawer());
   };
 
@@ -29,7 +29,7 @@ const List = () => {
       <Drawer
         title="Add new"
         width={'40%'}
-        onClose={handleDrowerClick}
+        onClose={handleDrawerClick}
         visible={isShowDrawer}
         bodyStyle={{ paddingBottom: 80 }}
       >
