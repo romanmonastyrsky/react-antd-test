@@ -1,0 +1,29 @@
+.list {
+  padding: 20px;
+  &__select-block {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .button__add-new {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__input {
+      padding: 10px;
+      border: 1px dashed black;
+      border-radius: 5px;
+    }
+
+    .ant-image {
+      margin-bottom: 5px;
+    }
+    
+  }
+}

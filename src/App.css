@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.ant-btn-block {
+  margin: 5px;
+}
+
+.ant-btn-icon-only {
+  margin: 0 5px;
+}
+
+.ant-row {
+  margin: 10px 0;
+}
