@@ -2,7 +2,6 @@ import React from 'react';
 import { Image } from 'antd';
 
 const ImageUpload = ({ onChange, value = {}, isEdit }) => {
-  console.log(value)
   const handleChange = (e) => {
     e.preventDefault();
 
